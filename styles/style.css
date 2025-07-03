@@ -130,3 +130,41 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 }
+
+/* place section style starts here  */
+.place-section-container{
+    /* border: 2px solid red; */
+    margin: 140px auto;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.place-section-content{
+        padding: 100px 385px 214px;
+}
+.place-section-content span{
+    color: rgb(255, 0, 0);
+}
+.place-section-content h3{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+}
+.place-section-content button{
+    margin-top: 48px;
+    width: 167px;
+height: 56px;
+background-color: rgb(255, 0, 0);
+border-radius: 8px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+border-style: none;
+}
+.btn{
+    text-align: center;
+}
