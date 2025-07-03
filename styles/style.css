@@ -249,3 +249,68 @@ font-weight: 400;
 .other-image{
     margin-top: 50px;
 }
+.holiday-section-container{
+    /* border: 2px solid red; */
+    width: 1320px;
+height: 986.07px;
+margin: 0 auto;
+margin-top: 120px;
+}
+.holiday-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday-section-content h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-section-content h1 {
+    .font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+
+}
+.holiday-section-content p{
+   color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+width: 1068px;
+height: 96px;
+left: 266px;
+text-align: center;
+margin-top: 30px;
+}
+.image-containers{
+    width: 1320px;
+height: 662.07px;
+/* border: 2px solid green; */
+margin-top: 67px;
+position: relative;
+}
+.red-image{
+    position: absolute;
+    top: 65%;
+    
+}
+.gift-box{
+    position: absolute;
+    width: 674.82px;
+height: 577.96px;
+
+}
+.girl-pc{
+    position: absolute;
+    left: 61.5%;
+    bottom: 34%;
+}
+.off{
+    position: absolute;
+    left:55% ;
+    bottom: 42%;
+}
