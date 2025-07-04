@@ -429,7 +429,7 @@ border: 0;
 /* footer styles  */
 .footer-container{
     /* border:2px solid red; */
-    width: 1320px;
+    width: 100%;
 height: 609px;
 margin: 0 auto;
 background: rgb(7, 2, 17);
