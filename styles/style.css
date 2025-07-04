@@ -400,14 +400,14 @@ height: 72px;
 z-index: -1; 
 border-radius: 50px;
 
-background: rgb(255, 255, 255);
+background: white;
 color: rgba(7, 2, 17, 0.3);
 font-family: Inter;
 font-size: 18px;
 font-weight: 400;
 padding-left: 15px;
 /* outline: none; */
-border: 0;
+border-style: none;
 }
 .sub{
     position: absolute;
@@ -424,4 +424,68 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 600;
 line-height: 24px;
+border: 0;
+}
+/* footer styles  */
+.footer-container{
+    /* border:2px solid red; */
+    width: 1600px;
+height: 609px;
+margin: 0 auto;
+background: rgb(7, 2, 17);
+
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+/* border: 2px solid green; */
+margin: 120px 275px 50px 140px;
+}
+.phone, .www{
+  
+    border: 1.5px dashed rgb(255, 255, 255);
+}
+.hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.icons{
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin-top: 48px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.icon{
+    margin-right: 15px;
+        border: 2.5px dashed rgba(255, 255, 255, 0.5);
+
+}
+.last-container{
+    /* border: 2px solid blue; */
+    width: 1600px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+.last-btn{
+    width: 145px;
+height: 29px;
+border-style: none;
+background: none;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
